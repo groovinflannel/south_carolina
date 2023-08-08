@@ -9,3 +9,8 @@ header {
 .navlink {
     margin: 1rem;
 }
+
+#dock-image {
+    width: 50%;
+    margin-top: 2rem;
+}
