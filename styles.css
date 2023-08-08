@@ -2,6 +2,10 @@ header {
     padding: 1rem;
 }
 
-.main-nav {
-    justify-content: space-between;
+.navbar {
+    justify-content: space-around;
+}
+
+.navlink {
+    margin: 1rem;
 }
