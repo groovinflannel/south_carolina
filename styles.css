@@ -6,6 +6,11 @@ aside {
     margin: 1rem 0 1rem 0;
 }
 
+td {
+    border: 1px solid black;
+    padding-right: 1rem;
+}
+
 .navbar {
     justify-content: space-around;
 }
@@ -16,6 +21,7 @@ aside {
 
 .city-info {
     display: flex;
+    justify-content: space-evenly;
 }
 
 #main-image {
