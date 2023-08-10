@@ -21,7 +21,7 @@ td {
 
 .city-info {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 #main-image {
