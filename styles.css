@@ -19,6 +19,11 @@ td {
     margin: 1rem;
 }
 
+.navlink:hover {
+    transition-duration: 5ms;
+    background-color: palegoldenrod;
+}
+
 .city-info {
     display: flex;
     justify-content: space-between;
@@ -29,7 +34,7 @@ td {
     margin-top: 2rem;
 }
 
-#aside-header, .aside-content, #aside-ulist {
+.aside-header, .aside-content, #aside-ulist {
     font-family: 'Gill Sans', sans-serif;
 }
 
