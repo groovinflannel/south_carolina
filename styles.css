@@ -11,8 +11,15 @@ td {
     padding-right: 1rem;
 }
 
+footer {
+    background-color: navy;
+    color: white;
+}
+
 .navbar {
     justify-content: space-around;
+    position: relative;
+    border: 1px solid navy;
 }
 
 .navlink {
@@ -29,6 +36,11 @@ td {
     justify-content: space-between;
 }
 
+.footer-links {
+    position: absolute;
+    right: 0;
+}
+
 #main-image {
     width: 50%;
     margin-top: 2rem;
@@ -40,4 +52,9 @@ td {
 
 #aside-ulist {
     list-style-type: none;
+}
+
+#disclaimer {
+    float: left;
+    margin-right: 1rem;
 }
