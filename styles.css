@@ -24,6 +24,7 @@ footer {
 
 .navlink {
     margin: 1rem;
+    position: relative;
 }
 
 .navlink:hover {
@@ -61,4 +62,16 @@ footer {
 
 #registration-form {
     margin: 1rem 5rem 1rem 5rem;
+}
+
+#emailAlert {
+    display: none;
+}
+
+#emailAlert.visible {
+    display: block;
+}
+
+input.invalid {
+    border-color: red;
 }
